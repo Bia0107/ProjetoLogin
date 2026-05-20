@@ -1,4 +1,4 @@
-﻿namespace ProjetoLogin.Models.Constants
+﻿namespace ProjetoLogin.Models.Constant
 {
     public class ColaboradorTipoConstant
     {

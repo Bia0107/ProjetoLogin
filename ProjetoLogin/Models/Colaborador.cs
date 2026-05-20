@@ -26,8 +26,6 @@ namespace ProjetoLogin.Models
         [Required(ErrorMessage = "A senha é obrogatória.")]
         [StringLength(10, MinimumLength = 6, ErrorMessage = "A senha deter ter entre 6 e 10 caracteres.")]
         public string Senha { get; set; }
-
-
     }
 
 }

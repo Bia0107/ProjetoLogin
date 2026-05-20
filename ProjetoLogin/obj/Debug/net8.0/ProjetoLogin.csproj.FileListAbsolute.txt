@@ -32,3 +32,6 @@ C:\Users\3MTEC\Documents\ProjetoLogin\ProjetoLogin\obj\Debug\net8.0\refint\Proje
 C:\Users\3MTEC\Documents\ProjetoLogin\ProjetoLogin\obj\Debug\net8.0\ProjetoLogin.pdb
 C:\Users\3MTEC\Documents\ProjetoLogin\ProjetoLogin\obj\Debug\net8.0\ProjetoLogin.genruntimeconfig.cache
 C:\Users\3MTEC\Documents\ProjetoLogin\ProjetoLogin\obj\Debug\net8.0\ref\ProjetoLogin.dll
+C:\Users\3MTEC\Documents\ProjetoLogin\ProjetoLogin\obj\Debug\net8.0\ProjetoLogin.csproj.AssemblyReference.cache
+C:\Users\3MTEC\Documents\ProjetoLogin\ProjetoLogin\obj\Debug\net8.0\ProjetoLogin.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\3MTEC\Documents\ProjetoLogin\ProjetoLogin\obj\Debug\net8.0\ProjetoLogin.sourcelink.json
