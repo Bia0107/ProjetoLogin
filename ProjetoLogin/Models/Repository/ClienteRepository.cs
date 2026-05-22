@@ -17,6 +17,7 @@ namespace ProjetoLogin.Models.Repository
             _conexaoMySQL = conf.GetConnectionString("ConexaoMySQL");
             _config = conf;
         }
+
         public void Atualizar(Cliente cliente)
         {
             string Situacao = SituacaoConstant.Ativo;
@@ -57,7 +58,7 @@ namespace ProjetoLogin.Models.Repository
                 cmd.Parameters.Add("@Telefone", MySqlDbType.VarChar).Value = cliente.Telefone;
                 cmd.Parameters.Add("@Email", MySqlDbType.VarChar).Value = cliente.Email;
                 cmd.Parameters.Add("@Senha", MySqlDbType.VarChar).Value = cliente.Senha;
-                cmd.Parameters.Add("@Email", MySqlDbType.VarChar).Value = Situacao;
+                cmd.Parameters.Add("@Situacao", MySqlDbType.VarChar).Value = Situacao;
 
                 cmd.ExecuteNonQuery();
                 conexao.Close();

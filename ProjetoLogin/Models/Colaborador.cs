@@ -4,6 +4,10 @@ namespace ProjetoLogin.Models
 {
     public class Colaborador
     {
+        [Display(Name = "Código", Description = "Código.")]
+        [Required(ErrorMessage = "O código é obrigatório.")]
+        public int Id { get; set; }
+
         [Display(Name = "Nome completo", Description = "Nome e Sobrenome.")]
         [Required(ErrorMessage = "O nome completo é obrigatório.")]
         public string Nome { get; set; }
@@ -26,6 +30,9 @@ namespace ProjetoLogin.Models
         [Required(ErrorMessage = "A senha é obrogatória.")]
         [StringLength(10, MinimumLength = 6, ErrorMessage = "A senha deter ter entre 6 e 10 caracteres.")]
         public string Senha { get; set; }
-    }
 
+        [Display(Name = "Tipo")]
+        [Required(ErrorMessage = "O tipo é obrigatório.")]
+        public string Tipo { get; set; }
+    }
 }

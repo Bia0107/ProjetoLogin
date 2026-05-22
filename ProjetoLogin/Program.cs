@@ -1,7 +1,13 @@
+using ProjetoLogin.Models.Repository;
+using ProjetoLogin.Models.Repository.Contract;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+//adicionar a interface como um servço
+builder.Services.AddScoped <IClienteRepository, ClienteRepository>();
 
 var app = builder.Build();
 

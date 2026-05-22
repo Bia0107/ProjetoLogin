@@ -14,10 +14,10 @@ ConfirmacaoSenha varchar(8) not null,
 Situacao char(1) not null
 );
 
-create table Colaborador(
+create table tbColaborador(
 Id int auto_increment primary key,
 Nome varchar(50),
 Email varchar(50) not null,
 Senha varchar(8) not null,
-Tipro varchar(8) not null
+Tipo varchar(8) not null
 );
