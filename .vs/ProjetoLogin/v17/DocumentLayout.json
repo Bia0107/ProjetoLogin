@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{9E64ABC2-BD7A-49D5-8DB1-0722840EE22B}|ProjetoLogin\\ProjetoLogin.csproj|solutionrelative:projetologin\\models\\repository\\colaboradorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9E64ABC2-BD7A-49D5-8DB1-0722840EE22B}|ProjetoLogin\\ProjetoLogin.csproj|c:\\users\\3mtec\\documents\\projetologin\\projetologin\\projetologin.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9E64ABC2-BD7A-49D5-8DB1-0722840EE22B}|ProjetoLogin\\ProjetoLogin.csproj|solutionrelative:projetologin\\projetologin.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E64ABC2-BD7A-49D5-8DB1-0722840EE22B}|ProjetoLogin\\ProjetoLogin.csproj|c:\\users\\3mtec\\documents\\projetologin\\projetologin\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9E64ABC2-BD7A-49D5-8DB1-0722840EE22B}|ProjetoLogin\\ProjetoLogin.csproj|solutionrelative:projetologin\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9E64ABC2-BD7A-49D5-8DB1-0722840EE22B}|ProjetoLogin\\ProjetoLogin.csproj|c:\\users\\3mtec\\documents\\projetologin\\projetologin\\models\\repository\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E64ABC2-BD7A-49D5-8DB1-0722840EE22B}|ProjetoLogin\\ProjetoLogin.csproj|solutionrelative:projetologin\\models\\repository\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,16 +27,8 @@
       "RelativeMoniker": "D:0:0:{9E64ABC2-BD7A-49D5-8DB1-0722840EE22B}|ProjetoLogin\\ProjetoLogin.csproj|solutionrelative:projetologin\\models\\colaborador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E64ABC2-BD7A-49D5-8DB1-0722840EE22B}|ProjetoLogin\\ProjetoLogin.csproj|c:\\users\\3mtec\\documents\\projetologin\\projetologin\\models\\repository\\contract\\icolaboradorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E64ABC2-BD7A-49D5-8DB1-0722840EE22B}|ProjetoLogin\\ProjetoLogin.csproj|solutionrelative:projetologin\\models\\repository\\contract\\icolaboradorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9E64ABC2-BD7A-49D5-8DB1-0722840EE22B}|ProjetoLogin\\ProjetoLogin.csproj|c:\\users\\3mtec\\documents\\projetologin\\projetologin\\models\\constant\\situacaoconstant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E64ABC2-BD7A-49D5-8DB1-0722840EE22B}|ProjetoLogin\\ProjetoLogin.csproj|solutionrelative:projetologin\\models\\constant\\situacaoconstant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E64ABC2-BD7A-49D5-8DB1-0722840EE22B}|ProjetoLogin\\ProjetoLogin.csproj|c:\\users\\3mtec\\documents\\projetologin\\projetologin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E64ABC2-BD7A-49D5-8DB1-0722840EE22B}|ProjetoLogin\\ProjetoLogin.csproj|solutionrelative:projetologin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,19 +38,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Colaborador.cs",
-              "DocumentMoniker": "C:\\Users\\3MTEC\\Documents\\ProjetoLogin\\ProjetoLogin\\Models\\Colaborador.cs",
-              "RelativeDocumentMoniker": "ProjetoLogin\\Models\\Colaborador.cs",
-              "ToolTip": "C:\\Users\\3MTEC\\Documents\\ProjetoLogin\\ProjetoLogin\\Models\\Colaborador.cs",
-              "RelativeToolTip": "ProjetoLogin\\Models\\Colaborador.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAowCIAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-22T13:19:26.631Z",
+              "DocumentIndex": 1,
+              "Title": "ProjetoLogin",
+              "DocumentMoniker": "C:\\Users\\3MTEC\\Documents\\ProjetoLogin\\ProjetoLogin\\ProjetoLogin.csproj",
+              "RelativeDocumentMoniker": "ProjetoLogin\\ProjetoLogin.csproj",
+              "ToolTip": "C:\\Users\\3MTEC\\Documents\\ProjetoLogin\\ProjetoLogin\\ProjetoLogin.csproj",
+              "RelativeToolTip": "ProjetoLogin\\ProjetoLogin.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-26T12:10:11.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\3MTEC\\Documents\\ProjetoLogin\\ProjetoLogin\\appsettings.json",
+              "RelativeDocumentMoniker": "ProjetoLogin\\appsettings.json",
+              "ToolTip": "C:\\Users\\3MTEC\\Documents\\ProjetoLogin\\ProjetoLogin\\appsettings.json",
+              "RelativeToolTip": "ProjetoLogin\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-26T12:03:41.431Z",
               "EditorCaption": ""
             },
             {
@@ -61,66 +74,27 @@
               "RelativeDocumentMoniker": "ProjetoLogin\\Models\\Repository\\ColaboradorRepository.cs",
               "ToolTip": "C:\\Users\\3MTEC\\Documents\\ProjetoLogin\\ProjetoLogin\\Models\\Repository\\ColaboradorRepository.cs",
               "RelativeToolTip": "ProjetoLogin\\Models\\Repository\\ColaboradorRepository.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAwC0AAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAALkAAAAAAAAAAAAswLoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-22T12:19:22.447Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IColaboradorRepository.cs",
-              "DocumentMoniker": "C:\\Users\\3MTEC\\Documents\\ProjetoLogin\\ProjetoLogin\\Models\\Repository\\Contract\\IColaboradorRepository.cs",
-              "RelativeDocumentMoniker": "ProjetoLogin\\Models\\Repository\\Contract\\IColaboradorRepository.cs",
-              "ToolTip": "C:\\Users\\3MTEC\\Documents\\ProjetoLogin\\ProjetoLogin\\Models\\Repository\\Contract\\IColaboradorRepository.cs",
-              "RelativeToolTip": "ProjetoLogin\\Models\\Repository\\Contract\\IColaboradorRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-22T12:09:13.377Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ClienteRepository.cs",
               "DocumentMoniker": "C:\\Users\\3MTEC\\Documents\\ProjetoLogin\\ProjetoLogin\\Models\\Repository\\ClienteRepository.cs",
               "RelativeDocumentMoniker": "ProjetoLogin\\Models\\Repository\\ClienteRepository.cs",
               "ToolTip": "C:\\Users\\3MTEC\\Documents\\ProjetoLogin\\ProjetoLogin\\Models\\Repository\\ClienteRepository.cs",
               "RelativeToolTip": "ProjetoLogin\\Models\\Repository\\ClienteRepository.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAYwDwAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwJMAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-12T11:39:32.299Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\3MTEC\\Documents\\ProjetoLogin\\ProjetoLogin\\Program.cs",
-              "RelativeDocumentMoniker": "ProjetoLogin\\Program.cs",
-              "ToolTip": "C:\\Users\\3MTEC\\Documents\\ProjetoLogin\\ProjetoLogin\\Program.cs",
-              "RelativeToolTip": "ProjetoLogin\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-22T12:06:37.533Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SituacaoConstant.cs",
-              "DocumentMoniker": "C:\\Users\\3MTEC\\Documents\\ProjetoLogin\\ProjetoLogin\\Models\\Constant\\SituacaoConstant.cs",
-              "RelativeDocumentMoniker": "ProjetoLogin\\Models\\Constant\\SituacaoConstant.cs",
-              "ToolTip": "C:\\Users\\3MTEC\\Documents\\ProjetoLogin\\ProjetoLogin\\Models\\Constant\\SituacaoConstant.cs",
-              "RelativeToolTip": "ProjetoLogin\\Models\\Constant\\SituacaoConstant.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T11:21:52.656Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ColaboradorTipoConstant.cs",
               "DocumentMoniker": "C:\\Users\\3MTEC\\Documents\\ProjetoLogin\\ProjetoLogin\\Models\\Constant\\ColaboradorTipoConstant.cs",
               "RelativeDocumentMoniker": "ProjetoLogin\\Models\\Constant\\ColaboradorTipoConstant.cs",
@@ -130,6 +104,30 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-12T11:17:05.324Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Colaborador.cs",
+              "DocumentMoniker": "C:\\Users\\3MTEC\\Documents\\ProjetoLogin\\ProjetoLogin\\Models\\Colaborador.cs",
+              "RelativeDocumentMoniker": "ProjetoLogin\\Models\\Colaborador.cs",
+              "ToolTip": "C:\\Users\\3MTEC\\Documents\\ProjetoLogin\\ProjetoLogin\\Models\\Colaborador.cs",
+              "RelativeToolTip": "ProjetoLogin\\Models\\Colaborador.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowCIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T13:19:26.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SituacaoConstant.cs",
+              "DocumentMoniker": "C:\\Users\\3MTEC\\Documents\\ProjetoLogin\\ProjetoLogin\\Models\\Constant\\SituacaoConstant.cs",
+              "RelativeDocumentMoniker": "ProjetoLogin\\Models\\Constant\\SituacaoConstant.cs",
+              "ToolTip": "C:\\Users\\3MTEC\\Documents\\ProjetoLogin\\ProjetoLogin\\Models\\Constant\\SituacaoConstant.cs",
+              "RelativeToolTip": "ProjetoLogin\\Models\\Constant\\SituacaoConstant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T11:21:52.656Z"
             }
           ]
         }

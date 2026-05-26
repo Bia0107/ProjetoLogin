@@ -8,6 +8,7 @@ builder.Services.AddControllersWithViews();
 
 //adicionar a interface como um servço
 builder.Services.AddScoped <IClienteRepository, ClienteRepository>();
+builder.Services.AddScoped<IColaboradorRepository, ColaboradorRepository>();
 
 var app = builder.Build();
 

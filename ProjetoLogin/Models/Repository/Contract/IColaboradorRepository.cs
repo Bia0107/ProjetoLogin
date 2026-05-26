@@ -13,7 +13,7 @@ namespace ProjetoLogin.Models.Repository.Contract
         void AtualizarSenha(Colaborador colaborador);
         void Excluir(int Id);
 
-        Cliente ObterColaborador(int Id);
+        Colaborador ObterColaborador(int Id);
         List<Colaborador> ObterTodosColaboradorPorEmail(string email);
         IEnumerable<Colaborador> ObterTodosColaboradores();
         IPagedList<Colaborador> ObterTodosColaboradores(int? pagina, string pesquisa);
