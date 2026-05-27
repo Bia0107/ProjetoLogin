@@ -8,11 +8,8 @@
 
   <ItemGroup>
     <PackageReference Include="MySql.Data" Version="9.7.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
     <PackageReference Include="X.PagedList.Mvc.Core" Version="10.5.9" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Libraries\" />
   </ItemGroup>
 
 </Project>
