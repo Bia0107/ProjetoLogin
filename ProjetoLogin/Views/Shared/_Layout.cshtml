@@ -1,4 +1,7 @@
-﻿<!DOCTYPE html>
+﻿@inject ProjetoLogin.Libraries.Login.LoginCliente _LoginCliente
+
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -26,6 +29,24 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Login">Login</a>
                         </li>
                     </ul>
+
+                    <li class="nav-item dropdown" style="list-style:none">
+                        @if(_LoginCliente.GetCliente() != null)
+                        {
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdonw" href="#" roel="button" aria-expanded="false">@_LoginCliente.GetCliente().Nome</a>
+                            <ul>
+                                <li><a class="dropdown-item" href="#">Minhas Compras</a></li>
+                                <li><a class="dropdown-item" href="#">Meu Perfil</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="/Home/LogoutCliente">Sair</a></li>
+                            </ul>
+                        }
+                        else
+                        {
+                            <a class="nav-link" href="/Home/Login"><i class="fas fa-user-alt">Login</i></a>
+                        }
+                    </li>
+
                 </div>
             </div>
         </nav>

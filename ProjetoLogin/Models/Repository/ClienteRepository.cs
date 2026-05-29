@@ -102,7 +102,7 @@ namespace ProjetoLogin.Models.Repository
                     cliente.Sexo = Convert.ToString(dr["Sexo"]);
                     cliente.CPF = Convert.ToString(dr["CPF"]);
                     cliente.Telefone = Convert.ToString(dr["Telefone"]);
-                    cliente.Situacao = Convert.ToString(dr["Situação"]);
+                    cliente.Situacao = Convert.ToString(dr["Situacao"]);
 
                     cliente.Email = Convert.ToString(dr["Email"]);
                     cliente.Senha = Convert.ToString(dr["Senha"]);
