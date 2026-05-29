@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\3MTEC\\Documents\\ProjetoLogin\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9E64ABC2-BD7A-49D5-8DB1-0722840EE22B}|ProjetoLogin\\ProjetoLogin.csproj|c:\\users\\3mtec\\documents\\projetologin\\projetologin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E64ABC2-BD7A-49D5-8DB1-0722840EE22B}|ProjetoLogin\\ProjetoLogin.csproj|solutionrelative:projetologin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E64ABC2-BD7A-49D5-8DB1-0722840EE22B}|ProjetoLogin\\ProjetoLogin.csproj|c:\\users\\3mtec\\documents\\projetologin\\projetologin\\libraries\\login\\logincolaborador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E64ABC2-BD7A-49D5-8DB1-0722840EE22B}|ProjetoLogin\\ProjetoLogin.csproj|solutionrelative:projetologin\\libraries\\login\\logincolaborador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E64ABC2-BD7A-49D5-8DB1-0722840EE22B}|ProjetoLogin\\ProjetoLogin.csproj|c:\\users\\3mtec\\documents\\projetologin\\projetologin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9E64ABC2-BD7A-49D5-8DB1-0722840EE22B}|ProjetoLogin\\ProjetoLogin.csproj|solutionrelative:projetologin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E64ABC2-BD7A-49D5-8DB1-0722840EE22B}|ProjetoLogin\\ProjetoLogin.csproj|c:\\users\\3mtec\\documents\\projetologin\\projetologin\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9E64ABC2-BD7A-49D5-8DB1-0722840EE22B}|ProjetoLogin\\ProjetoLogin.csproj|solutionrelative:projetologin\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9E64ABC2-BD7A-49D5-8DB1-0722840EE22B}|ProjetoLogin\\ProjetoLogin.csproj|c:\\users\\3mtec\\documents\\projetologin\\projetologin\\views\\home\\painelcliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E64ABC2-BD7A-49D5-8DB1-0722840EE22B}|ProjetoLogin\\ProjetoLogin.csproj|solutionrelative:projetologin\\views\\home\\painelcliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E64ABC2-BD7A-49D5-8DB1-0722840EE22B}|ProjetoLogin\\ProjetoLogin.csproj|c:\\users\\3mtec\\documents\\projetologin\\projetologin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E64ABC2-BD7A-49D5-8DB1-0722840EE22B}|ProjetoLogin\\ProjetoLogin.csproj|solutionrelative:projetologin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9E64ABC2-BD7A-49D5-8DB1-0722840EE22B}|ProjetoLogin\\ProjetoLogin.csproj|c:\\users\\3mtec\\documents\\projetologin\\projetologin\\libraries\\login\\logincolaborador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E64ABC2-BD7A-49D5-8DB1-0722840EE22B}|ProjetoLogin\\ProjetoLogin.csproj|solutionrelative:projetologin\\libraries\\login\\logincolaborador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9E64ABC2-BD7A-49D5-8DB1-0722840EE22B}|ProjetoLogin\\ProjetoLogin.csproj|c:\\users\\3mtec\\documents\\projetologin\\projetologin\\libraries\\login\\logincliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E64ABC2-BD7A-49D5-8DB1-0722840EE22B}|ProjetoLogin\\ProjetoLogin.csproj|solutionrelative:projetologin\\libraries\\login\\logincliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E64ABC2-BD7A-49D5-8DB1-0722840EE22B}|ProjetoLogin\\ProjetoLogin.csproj|c:\\users\\3mtec\\documents\\projetologin\\projetologin\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E64ABC2-BD7A-49D5-8DB1-0722840EE22B}|ProjetoLogin\\ProjetoLogin.csproj|solutionrelative:projetologin\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E64ABC2-BD7A-49D5-8DB1-0722840EE22B}|ProjetoLogin\\ProjetoLogin.csproj|c:\\users\\3mtec\\documents\\projetologin\\projetologin\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9E64ABC2-BD7A-49D5-8DB1-0722840EE22B}|ProjetoLogin\\ProjetoLogin.csproj|solutionrelative:projetologin\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E64ABC2-BD7A-49D5-8DB1-0722840EE22B}|ProjetoLogin\\ProjetoLogin.csproj|c:\\users\\3mtec\\documents\\projetologin\\projetologin\\libraries\\sessao\\sessao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,63 +38,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\3MTEC\\Documents\\ProjetoLogin\\ProjetoLogin\\Program.cs",
-              "RelativeDocumentMoniker": "ProjetoLogin\\Program.cs",
-              "ToolTip": "C:\\Users\\3MTEC\\Documents\\ProjetoLogin\\ProjetoLogin\\Program.cs",
-              "RelativeToolTip": "ProjetoLogin\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABEAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\3MTEC\\Documents\\ProjetoLogin\\ProjetoLogin\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ProjetoLogin\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\3MTEC\\Documents\\ProjetoLogin\\ProjetoLogin\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ProjetoLogin\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwDEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T14:56:29.281Z",
+              "WhenOpened": "2026-05-29T12:16:41.807Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\3MTEC\\Documents\\ProjetoLogin\\ProjetoLogin\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "ProjetoLogin\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\3MTEC\\Documents\\ProjetoLogin\\ProjetoLogin\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "ProjetoLogin\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAABkAAABtAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "PainelCliente.cshtml",
+              "DocumentMoniker": "C:\\Users\\3MTEC\\Documents\\ProjetoLogin\\ProjetoLogin\\Views\\Home\\PainelCliente.cshtml",
+              "RelativeDocumentMoniker": "ProjetoLogin\\Views\\Home\\PainelCliente.cshtml",
+              "ToolTip": "C:\\Users\\3MTEC\\Documents\\ProjetoLogin\\ProjetoLogin\\Views\\Home\\PainelCliente.cshtml",
+              "RelativeToolTip": "ProjetoLogin\\Views\\Home\\PainelCliente.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-27T14:56:00.22Z",
+              "WhenOpened": "2026-05-29T12:17:15.178Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\3MTEC\\Documents\\ProjetoLogin\\ProjetoLogin\\Views\\Home\\Login.cshtml",
               "RelativeDocumentMoniker": "ProjetoLogin\\Views\\Home\\Login.cshtml",
               "ToolTip": "C:\\Users\\3MTEC\\Documents\\ProjetoLogin\\ProjetoLogin\\Views\\Home\\Login.cshtml",
               "RelativeToolTip": "ProjetoLogin\\Views\\Home\\Login.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-05-27T14:41:41.069Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\3MTEC\\Documents\\ProjetoLogin\\ProjetoLogin\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "ProjetoLogin\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\3MTEC\\Documents\\ProjetoLogin\\ProjetoLogin\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "ProjetoLogin\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwBgAAAAfAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "LoginCliente.cs",
+              "DocumentMoniker": "C:\\Users\\3MTEC\\Documents\\ProjetoLogin\\ProjetoLogin\\Libraries\\Login\\LoginCliente.cs",
+              "RelativeDocumentMoniker": "ProjetoLogin\\Libraries\\Login\\LoginCliente.cs",
+              "ToolTip": "C:\\Users\\3MTEC\\Documents\\ProjetoLogin\\ProjetoLogin\\Libraries\\Login\\LoginCliente.cs",
+              "RelativeToolTip": "ProjetoLogin\\Libraries\\Login\\LoginCliente.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAUwA4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T14:02:35.106Z",
+              "WhenOpened": "2026-05-27T11:35:15.26Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\3MTEC\\Documents\\ProjetoLogin\\ProjetoLogin\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "ProjetoLogin\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\3MTEC\\Documents\\ProjetoLogin\\ProjetoLogin\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "ProjetoLogin\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-05-29T12:09:33.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "LoginColaborador.cs",
               "DocumentMoniker": "C:\\Users\\3MTEC\\Documents\\ProjetoLogin\\ProjetoLogin\\Libraries\\Login\\LoginColaborador.cs",
               "RelativeDocumentMoniker": "ProjetoLogin\\Libraries\\Login\\LoginColaborador.cs",
@@ -104,18 +117,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-27T12:07:30.547Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LoginCliente.cs",
-              "DocumentMoniker": "C:\\Users\\3MTEC\\Documents\\ProjetoLogin\\ProjetoLogin\\Libraries\\Login\\LoginCliente.cs",
-              "RelativeDocumentMoniker": "ProjetoLogin\\Libraries\\Login\\LoginCliente.cs",
-              "ToolTip": "C:\\Users\\3MTEC\\Documents\\ProjetoLogin\\ProjetoLogin\\Libraries\\Login\\LoginCliente.cs",
-              "RelativeToolTip": "ProjetoLogin\\Libraries\\Login\\LoginCliente.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwCwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T11:35:15.26Z"
             },
             {
               "$type": "Document",

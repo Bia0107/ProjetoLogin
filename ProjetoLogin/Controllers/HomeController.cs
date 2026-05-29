@@ -47,6 +47,7 @@ namespace ProjetoLogin.Controllers
             //return new ContentResult() { Content = "Esse é o Painel do Cliente" };
             return View();  
         }
+
         public IActionResult Index()
         {
             return View();

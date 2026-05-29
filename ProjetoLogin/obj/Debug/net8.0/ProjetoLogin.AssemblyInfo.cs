@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProjetoLogin")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fe33e8daf2ea39e1125f293c8a94b578cff7d195")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6066d1d1ea26bc7cf47a293aaff52ffefb6bdfe9")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProjetoLogin")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProjetoLogin")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

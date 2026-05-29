@@ -22,7 +22,7 @@ namespace ProjetoLogin.Libraries.Login
             _sessao.Cadastar(key, clienteJSONString);
         }
 
-        //Reverter Json
+        //Reverter Json para bjeto cliente 
         public Cliente GetCliente() 
         {
             //Deserializar
