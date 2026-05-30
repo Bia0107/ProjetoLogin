@@ -21,10 +21,97 @@ body {
   margin-bottom: 60px;
 }
 
-footer{
+footer {
     text-align: center;
 }
 
-section{
-    justify-content: center;
+.nav-item dropdow{
+    font:200;
+    font-style:normal;
+}
+
+/* Fonte moderna */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+.nav-item.dropdown {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+
+/* Nome do usuário */
+.nav-item.dropdown .nav-link {
+    color: #333;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}        
+
+/* Menu dropdown */
+.nav-item.dropdown ul {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    min-width: 220px;
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 8px 0;
+    margin-top: 8px;
+    list-style: none;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    display: none;
+    z-index: 1000;
+}
+
+/* Exibe o menu ao passar o mouse */
+.nav-item.dropdown:hover ul {
+    display: block;
+}
+
+/* Itens do menu */
+    .nav-item.dropdown ul li a {
+        display: block;
+        padding: 12px 20px;
+        color: #808080;
+        text-decoration: none;
+        font-size: 14px;
+        transition: background 0.3s;
+    }
+
+/* Hover dos itens */
+.nav-item.dropdown ul li a:hover {
+    background-color: #f8f9fa;
+    color: #808080;
+}
+
+/* Linha divisória */
+.dropdown-divider {
+    margin: 5px 0;
+    border-top: 1px solid #808080;
+}
+
+/* Botão Login */
+.nav-link i {
+    text-align: center;
+    text-decoration: none;
+    font-style:normal;
+    font: bold;
+}
+
+.nav-link[href="/Home/Login"] {
+    color: #fff;
+    padding: 10px 12px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.nav-link[href="/Home/Login"]:hover {
+    background: #808080;
+}
+
+.container{
+    align-items: center;
+    justify-content: center:
 }
