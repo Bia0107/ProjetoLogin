@@ -1,0 +1,70 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
+  color: var(--bs-secondary-color);
+  text-align: end;
+}
+
+.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
+  text-align: start;
+}
+
+.back-legal {
+    background-color: #ff6b6b;
+}
+.cor-legal{
+    color: dimgray;
+}
+.cor-legal2{
+    color: white;
+    text-decoration: none;
+}
+.link-selector{
+    font-size: 16px;
+}
+.link-selector:hover{
+    color: deepskyblue;
+}
+.img-logo{
+    width: 110px;
+    height: 110px;
+}
+.navegador{
+    width: 100%;
+    padding: 20px;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ajuste-lista{
+    display: flex;
+    width: auto;
+    gap: 30px;
+    align-items: center;
+    flex-direction: row;
+}
+
