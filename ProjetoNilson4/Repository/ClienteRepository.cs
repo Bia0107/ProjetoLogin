@@ -21,7 +21,7 @@ namespace ProjetoNilson4.Repository
             using(var conexao = new MySqlConnection(_conexaoMySQL))
             {
                 conexao.Open();
-                MySqlCommand cmd = new MySqlCommand("select * from cliente where Email = @Email and Senha = @Senha", conexao);
+                MySqlCommand cmd = new MySqlCommand("select * from tbCliente where Email = @Email and Senha = @Senha", conexao);
 
                 cmd.Parameters.Add("@Email", MySqlDbType.VarChar).Value = Email;
                 cmd.Parameters.Add("@Senha", MySqlDbType.VarChar).Value = Senha;
@@ -56,7 +56,7 @@ namespace ProjetoNilson4.Repository
             using( var conexao = new MySqlConnection(_conexaoMySQL))
             {
                 conexao.Open();
-                MySqlCommand cmd = new MySqlCommand("update Cliente set Nome=@Nome, Nascimento=@Nascimento, Sexo=@Sexo, CPF=@CPF," + " Telefone=@Telefone, Email=@Email, Senha=@Senha, Situacao=@Situacao where Id=@Id", conexao);
+                MySqlCommand cmd = new MySqlCommand("update tbCliente set Nome=@Nome, Nascimento=@Nascimento, Sexo=@Sexo, CPF=@CPF," + " Telefone=@Telefone, Email=@Email, Senha=@Senha, Situacao=@Situacao where Id=@Id", conexao);
 
                 cmd.Parameters.Add("@Id", MySqlDbType.VarChar).Value = cliente.Id;
                 cmd.Parameters.Add("@Nome", MySqlDbType.VarChar).Value = cliente.Nome;
@@ -80,7 +80,7 @@ namespace ProjetoNilson4.Repository
             using (var conexao = new MySqlConnection(_conexaoMySQL))
             {
                 conexao.Open();
-                MySqlCommand cmd = new MySqlCommand("insert into Cliente(Nome, Nascimento, Sexo, CPF, Telefone, Email, Senha, ConfirmacaoSenha, Situacao)" + " values(@Nome, @Nascimento, @Sexo, @CPF, @Telefone, @Email, @Senha, @ConfirmacaoSenha, @Situacao)", conexao);
+                MySqlCommand cmd = new MySqlCommand("insert into tbCliente(Nome, Nascimento, Sexo, CPF, Telefone, Email, Senha, ConfirmacaoSenha, Situacao)" + " values(@Nome, @Nascimento, @Sexo, @CPF, @Telefone, @Email, @Senha, @ConfirmacaoSenha, @Situacao)", conexao);
 
                 cmd.Parameters.Add("@Nome", MySqlDbType.VarChar).Value = cliente.Nome;
                 cmd.Parameters.Add("@Nascimento", MySqlDbType.DateTime).Value = cliente.Nascimento.ToString("yyyy/MM/dd");
@@ -102,7 +102,7 @@ namespace ProjetoNilson4.Repository
             using(var conexao = new MySqlConnection(_conexaoMySQL))
             {
                 conexao.Open();
-                MySqlCommand cmd = new MySqlCommand("delete from Cliente where Id=@Id", conexao);
+                MySqlCommand cmd = new MySqlCommand("delete from tbCliente where Id=@Id", conexao);
                 cmd.Parameters.AddWithValue("@Id", Id);
                 cmd.ExecuteNonQuery();
                 conexao.Close();
@@ -116,7 +116,7 @@ namespace ProjetoNilson4.Repository
             using(var conexao = new MySqlConnection(_conexaoMySQL))
             {
                 conexao.Open();
-                MySqlCommand cmd = new MySqlCommand(" select * from Cliente where Id=@Id", conexao);
+                MySqlCommand cmd = new MySqlCommand(" select * from tbCliente where Id=@Id", conexao);
                 cmd.Parameters.AddWithValue("@Id", Id);
 
                 MySqlDataAdapter da = new MySqlDataAdapter(cmd);
@@ -141,13 +141,14 @@ namespace ProjetoNilson4.Repository
             
         }
 
+        // Copiar para o ColaboradorRepository
         public IEnumerable<Cliente> ObterTodosClientes()
         {
             List<Cliente> cliList = new List<Cliente>();
             using (var conexao = new MySqlConnection(_conexaoMySQL))
             {
                 conexao.Open();
-                MySqlCommand cmd = new MySqlCommand(" select * from Cliente", conexao);
+                MySqlCommand cmd = new MySqlCommand(" select * from tbCliente", conexao);
 
                 MySqlDataAdapter da = new MySqlDataAdapter(cmd);
                 DataTable dt = new DataTable();

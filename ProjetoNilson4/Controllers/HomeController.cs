@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using ProjetoNilson4.Libraries.Filtro;
 using ProjetoNilson4.Libraries.Login;
 using ProjetoNilson4.Models;
 using ProjetoNilson4.Repository.Contract;
@@ -64,8 +65,7 @@ namespace ProjetoNilson4.Controllers
 
         }
 
-        
-
+        [ClienteAutorizacao]
         public IActionResult PainelCliente()
         {
             ViewBag.Nome = _loginCliente.GetCliente().Nome;
@@ -84,6 +84,7 @@ namespace ProjetoNilson4.Controllers
             return View();
         }
 
+        [ClienteAutorizacao]
         public IActionResult LogoutCliente()
         {
             _loginCliente.Logout();

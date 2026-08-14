@@ -24,7 +24,7 @@ namespace ProjetoNilson4.Repository
             using (var conexao = new MySqlConnection(_conexaoMySQL))
             {
                 conexao.Open();
-                MySqlCommand cmd = new MySqlCommand("update Colaborador set Nome=@Nome, Email=@Email, Senha=@Senha, Tipo=@Tipo where Id=@Id", conexao);
+                MySqlCommand cmd = new MySqlCommand("update tbColaborador set Nome=@Nome, Email=@Email, Senha=@Senha, Tipo=@Tipo where Id=@Id", conexao);
 
                 cmd.Parameters.Add("@Nome", MySqlDbType.VarChar).Value = colaborador.Nome;
                 cmd.Parameters.Add("@CPF", MySqlDbType.VarChar).Value = colaborador.CPF;
@@ -51,7 +51,7 @@ namespace ProjetoNilson4.Repository
             {
                 conexao.Open();
 
-                MySqlCommand cmd = new MySqlCommand("insert into Colaborador(Nome, CPF, Telefone, Email, Senha, Tipo)" +
+                MySqlCommand cmd = new MySqlCommand("insert into tbColaborador(Nome, CPF, Telefone, Email, Senha, Tipo)" +
                     " values(@Nome, @CPF, @Telefone, @Email, @Senha, @Tipo)", conexao);
 
                 cmd.Parameters.Add("@Nome", MySqlDbType.VarChar).Value = colaborador.Nome;
@@ -59,7 +59,7 @@ namespace ProjetoNilson4.Repository
                 cmd.Parameters.Add("@Telefone", MySqlDbType.VarChar).Value = colaborador.Telefone;
                 cmd.Parameters.Add("@Email", MySqlDbType.VarChar).Value = colaborador.Email;
                 cmd.Parameters.Add("@Senha", MySqlDbType.VarChar).Value = colaborador.Senha;
-                cmd.Parameters.Add("@Tipo", MySqlDbType.VarChar).Value = Tipo;
+                cmd.Parameters.Add("@Tipo", MySqlDbType.VarChar).Value = colaborador.Tipo;
 
                 cmd.ExecuteNonQuery();
                 conexao.Close();
@@ -68,7 +68,14 @@ namespace ProjetoNilson4.Repository
 
         public void Excluir(int Id)
         {
-            throw new NotImplementedException();
+            using (var conexao = new MySqlConnection(_conexaoMySQL))
+            {
+                conexao.Open();
+                MySqlCommand cmd = new MySqlCommand("delete from tbColaborador where Id=@Id", conexao);
+                cmd.Parameters.AddWithValue("@Id", Id);
+                cmd.ExecuteNonQuery();
+                conexao.Close();
+            }
         }
 
         public Colaborador Login(string Email, string Senha)
@@ -76,7 +83,7 @@ namespace ProjetoNilson4.Repository
             using (var conexao = new MySqlConnection(_conexaoMySQL))
             {
                 conexao.Open();
-                MySqlCommand cmd = new MySqlCommand("Select * from Colaborador where Email = @Email and Senha = @Senha", conexao);
+                MySqlCommand cmd = new MySqlCommand("select * from tbColaborador where Email = @Email and Senha = @Senha", conexao);
 
                 cmd.Parameters.Add("@Email", MySqlDbType.VarChar).Value = Email;
                 cmd.Parameters.Add("@Senha", MySqlDbType.VarChar).Value = Senha;
@@ -104,7 +111,7 @@ namespace ProjetoNilson4.Repository
             using(var conexao = new MySqlConnection(_conexaoMySQL))
             {
                 conexao.Open();
-                MySqlCommand cmd = new MySqlCommand("Select * from Colaborador where Id=@Id", conexao);
+                MySqlCommand cmd = new MySqlCommand("select * from tbColaborador where Id=@Id", conexao);
                 cmd.Parameters.AddWithValue("@Id", Id);
 
                 MySqlDataAdapter da = new MySqlDataAdapter(cmd);
@@ -151,7 +158,7 @@ namespace ProjetoNilson4.Repository
             using(var conexao = new MySqlConnection(_conexaoMySQL))
             {
                 conexao.Open();
-                MySqlCommand cmd = new MySqlCommand("Select * from Colaborador", conexao);
+                MySqlCommand cmd = new MySqlCommand("select * from tbColaborador", conexao);
 
                 MySqlDataAdapter da = new MySqlDataAdapter(cmd);
                 DataTable dt = new DataTable();
@@ -183,11 +190,11 @@ namespace ProjetoNilson4.Repository
             using (var conexao = new MySqlConnection(_conexaoMySQL))
             {
                 conexao.Open();
-                MySqlCommand cmd = new MySqlCommand("select * from colaborador;", conexao);
+                MySqlCommand cmd = new MySqlCommand("select * from tbColaborador;", conexao);
 
                 if(!string.IsNullOrEmpty(pesquisa))
                 {
-                    cmd = new MySqlCommand("select * from colaborador where Nome like'%" + pesquisa + "%'", conexao);
+                    cmd = new MySqlCommand("select * from tbColaborador where Nome like'%" + pesquisa + "%'", conexao);
                 }
 
                 MySqlDataAdapter da = new MySqlDataAdapter(cmd);

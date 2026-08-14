@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using ProjetoNilson4.Libraries.Filtro;
 using ProjetoNilson4.Libraries.Login;
 using ProjetoNilson4.Models.Constant;
 using ProjetoNilson4.Repository.Contract;
@@ -16,6 +17,8 @@ namespace ProjetoNilson4.Areas.Colaborador.Controllers
             _colaboradorRepository = colaboradorRepository;
             _loginColaborador = loginColaborador;
         }
+
+        [ColaboradorAutorizacao]
         public IActionResult Index()
         {
             return View();
@@ -28,24 +31,18 @@ namespace ProjetoNilson4.Areas.Colaborador.Controllers
         }
 
         [HttpPost]
-        public IActionResult LoginColaborador([FromForm] Models.Colaborador colaborador)
+        public IActionResult Login([FromForm] Models.Colaborador colaborador)
         {
             Models.Colaborador colaboradorDB = _colaboradorRepository.Login(colaborador.Email, colaborador.Senha);
 
-            if (colaboradorDB.Email != null && colaboradorDB.Senha != null &&
-                colaboradorDB.Tipo != ColaboradorTipoConstant.Comum)
+            if(colaboradorDB.Email != null && colaboradorDB.Senha != null)
             {
-                _loginColaborador.Login(colaboradorDB);
-                return new RedirectResult(Url.Action(nameof(PainelGerente)));
-            }
-            if(colaboradorDB.Email != null && colaboradorDB.Senha != null && colaboradorDB.Tipo != ColaboradorTipoConstant.Gerente)
-            {
-                _loginColaborador.Login(colaboradorDB);
-                return new RedirectResult(Url.Action(nameof(PainelComum)));
+                _loginColaborador.Login(colaboradorDB)
+                return new RedirectResult(Url.Action(nameof(Painel)));
             }
             else
             {
-                ViewData["MSG_E"] = "Colaborador não localizado, por favor verifique e-mail e senha digitado";
+                ViewData["MSG_E"] = "Usuário não encontrado, verifique o email e senha digitados!";
                 return View();
             }
         }
@@ -66,11 +63,13 @@ namespace ProjetoNilson4.Areas.Colaborador.Controllers
             return View();
         }
 
+        [ColaboradorAutorizacao]
         public IActionResult Painel()
         {
             return View();
         }
 
+        [ColaboradorAutorizacao]
         public IActionResult LogoutColaborador()
         {
             _loginColaborador.Logout();
