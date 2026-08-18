@@ -134,25 +134,41 @@ namespace ProjetoNilson4.Repository
         // TERMINAR DEPOIS
         public List<Colaborador> ObterColaboradorPorEmail(string email)
         {
-            throw new NotImplementedException();
-            /*
-              List<Colaborador> colabList = new List<Colaborador>();
-              using(var conexao = new MySqlConnection(_conexaoMySQL))
-              {
-                  conexao.Open();
-                  MySqlCommand cmd = new MySqlCommand("Select * from Colaborador where Email=@Email", conexao);
-                  cmd.Parameters.AddWithValue("@Email", email);
+			List<Colaborador> colabList = new List<Colaborador>();
+			using (var conexao = new MySqlConnection(_conexaoMySQL))
+			{
+				conexao.Open();
+				MySqlCommand cmd = new MySqlCommand(" select * from tbColaborador where @Email = Email", conexao);
 
-                  MySqlDataAdapter da = new MySqlDataAdapter(cmd);
+				MySqlDataAdapter da = new MySqlDataAdapter(cmd);
+				DataTable dt = new DataTable();
 
-                
-              }
-            */
-        }
-        
+				da.Fill(dt);
 
-        
-        public IEnumerable<Colaborador> ObterTodosColaboradores()
+				conexao.Close();
+
+				foreach (DataRow dr in dt.Rows)
+				{
+					colabList.Add(
+						new Colaborador
+						{
+							Id = Convert.ToInt32(dr["Id"]),
+							Nome = (string)(dr["Nome"]),
+							CPF = Convert.ToString(dr["CPF"]),
+							Telefone = Convert.ToString(dr["Telefone"]),
+							Email = Convert.ToString(dr["Email"]),
+							Senha = Convert.ToString(dr["Senha"]),
+							Tipo = Convert.ToString(dr["Tipo"])
+						}
+						);
+				}
+				return colabList;
+			}
+		}
+
+
+
+		public IEnumerable<Colaborador> ObterTodosColaboradores()
         {
             List<Colaborador> colabList = new List<Colaborador>();
             using(var conexao = new MySqlConnection(_conexaoMySQL))
