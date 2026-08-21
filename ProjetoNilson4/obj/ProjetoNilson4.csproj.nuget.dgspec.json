@@ -46,24 +46,32 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.400"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net10.0": {
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
+            "Microsoft.DotNet.Scaffolding.Shared": {
+              "target": "Package",
+              "version": "[10.0.2, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[10.0.2, )"
             },
             "MySql.Data": {
               "target": "Package",
-              "version": "[9.7.0, )"
+              "version": "[26.7.0, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.4, )"
+            },
+            "NuGet.Protocol": {
+              "target": "Package",
+              "version": "[6.12.1, )"
             },
             "X.PagedList.Mvc.Core": {
               "target": "Package",
@@ -89,7 +97,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400-preview.0.26322.102/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.302/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

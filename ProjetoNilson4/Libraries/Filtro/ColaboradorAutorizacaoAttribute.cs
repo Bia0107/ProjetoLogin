@@ -15,11 +15,11 @@ namespace ProjetoNilson4.Libraries.Filtro
             _tipoColaboradorAutorizado = TipoColaboradorAutorizado;
         }
 
-        LoginColaborador = _loginColaborador;
+        LoginColaborador _loginColaborador;
         public void OnAuthorization(AuthorizationFilterContext context)
         {
-            _loginColaborador = (LoginColaborador)context.HttpContext.RequestServices.GetService(typeof(LoginColaborador));
-            Models.Colaborador colaborador = Areas_Colaborador_Views_Home_LoginColaborador.GetColaborador();
+			_loginColaborador = (LoginColaborador)context.HttpContext.RequestServices.GetService(typeof(LoginColaborador));
+            Models.Colaborador colaborador = _loginColaborador.GetColaborador();
             if( colaborador == null)
             {
                 context.Result = new RedirectToActionResult("Login", "Home", null);

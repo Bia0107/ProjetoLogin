@@ -1,5 +1,7 @@
 using ProjetoNilson4.Repository.Contract;
 using ProjetoNilson4.Repository;
+using Microsoft.AspNetCore.Mvc;
+using ProjetoNilson4.Libraries.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -24,9 +26,8 @@ builder.Services.AddSession(options =>
     // Mostrar para o navegador que o cookie e essencial   
     options.Cookie.IsEssential = true;
 });
+
 builder.Services.AddMvc().AddSessionStateTempDataProvider();
-
-
 
 var app = builder.Build();
 
@@ -41,10 +42,11 @@ app.UseAuthorization();
 
 app.MapStaticAssets();
 
-
 app.UseCookiePolicy();
 
 app.UseSession();
+
+app.UseMiddleware<ValidateAntiForgeryTokenMiddleware>();
 
 app.MapControllerRoute(
     name: "areas",
@@ -55,7 +57,6 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}")
     .WithStaticAssets();
-
 
 app.Run();
 

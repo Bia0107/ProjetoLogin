@@ -1,5 +1,6 @@
 html {
   font-size: 14px;
+  background-color: white;
 }
 
 @media (min-width: 768px) {
@@ -30,47 +31,5 @@ body {
   text-align: start;
 }
 
-.back-legal {
-    background-color: #ff6b6b;
-}
 
-.cor-legal{
-    color: dimgray;
-}
-
-.cor-legal2{
-    color: #000;
-    text-decoration: none;
-}
-
-.link-selector{
-    font-size: 16px;
-}
-
-.link-selector:hover{
-   
-    color: #258cfb;
-}
-.img-logo{
-    width: 110px;
-    height: 110px;
-}
-
-.navegador{
-    width: 100%;
-    padding: 20px;
-    height: 90px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.ajuste-lista{
-    display: flex;
-    width: auto;
-    gap: 30px;
-    align-items: center;
-    flex-direction: row;
-}
 

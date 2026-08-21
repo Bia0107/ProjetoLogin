@@ -2241,7 +2241,6 @@ C:\Users\3mtec\Documents\ProjetoLogin\ProjetoNilson4\bin\Debug\net10.0\runtimes\
 C:\Users\3mtec\Documents\ProjetoLogin\ProjetoNilson4\bin\Debug\net10.0\runtimes\win-x64\native\k5sprt64.dll
 C:\Users\3mtec\Documents\ProjetoLogin\ProjetoNilson4\bin\Debug\net10.0\runtimes\win-x64\native\krb5_64.dll
 C:\Users\3mtec\Documents\ProjetoLogin\ProjetoNilson4\bin\Debug\net10.0\runtimes\win-x64\native\krbcc64.dll
-C:\Users\3mtec\Documents\ProjetoLogin\ProjetoNilson4\bin\Debug\net10.0\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
 C:\Users\3mtec\Documents\ProjetoLogin\ProjetoNilson4\obj\Debug\net10.0\ProjetoNilson4.csproj.AssemblyReference.cache
 C:\Users\3mtec\Documents\ProjetoLogin\ProjetoNilson4\obj\Debug\net10.0\rpswa.dswa.cache.json
 C:\Users\3mtec\Documents\ProjetoLogin\ProjetoNilson4\obj\Debug\net10.0\ProjetoNilson4.GeneratedMSBuildEditorConfig.editorconfig
@@ -2469,4 +2468,5 @@ C:\Users\3mtec\Documents\ProjetoLogin\ProjetoNilson4\obj\Debug\net10.0\refint\Pr
 C:\Users\3mtec\Documents\ProjetoLogin\ProjetoNilson4\obj\Debug\net10.0\ProjetoNilson4.pdb
 C:\Users\3mtec\Documents\ProjetoLogin\ProjetoNilson4\obj\Debug\net10.0\ProjetoNilson4.genruntimeconfig.cache
 C:\Users\3mtec\Documents\ProjetoLogin\ProjetoNilson4\obj\Debug\net10.0\ref\ProjetoNilson4.dll
-C:\Users\3mtec\Documents\ProjetoLogin\ProjetoNilson4\obj\Debug\net10.0\compressed\x0q1mjsat5-{0}-ggt1gnyr33-ggt1gnyr33.gz
+C:\Users\3mtec\Documents\ProjetoLogin\ProjetoNilson4\bin\Debug\net10.0\runtimes\win\lib\net10.0\System.Windows.Extensions.dll
+C:\Users\3mtec\Documents\ProjetoLogin\ProjetoNilson4\obj\Debug\net10.0\compressed\x0q1mjsat5-{0}-7vt7smn31v-7vt7smn31v.gz

@@ -61,8 +61,6 @@ namespace ProjetoNilson4.Controllers
                 ViewData["MSG_E"] = "Usuário não localizado, por favor verifique e-mail e senha digitado";
                 return View();
             }
-
-
         }
 
         [ClienteAutorizacao]
@@ -75,6 +73,7 @@ namespace ProjetoNilson4.Controllers
             return View();
         }
 
+        [ColaboradorAutorizacao]
         public IActionResult PainelColaborador()
         {
             ViewBag.Nome = _loginColaborador.GetColaborador().Nome;
@@ -89,8 +88,6 @@ namespace ProjetoNilson4.Controllers
         {
             _loginCliente.Logout();
             return RedirectToAction(nameof(Index));
-        }
-        
-        
+        }    
     }
 }

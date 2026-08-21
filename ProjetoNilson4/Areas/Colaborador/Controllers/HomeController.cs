@@ -37,16 +37,17 @@ namespace ProjetoNilson4.Areas.Colaborador.Controllers
 
             if(colaboradorDB.Email != null && colaboradorDB.Senha != null)
             {
-                _loginColaborador.Login(colaboradorDB)
+                _loginColaborador.Login(colaboradorDB);
                 return new RedirectResult(Url.Action(nameof(Painel)));
             }
             else
             {
-                ViewData["MSG_E"] = "Usuário não encontrado, verifique o email e senha digitados!";
+                ViewData["MSG_E"] = "Usuário não encontrado, verifique o email e senha digitados!!";
                 return View();
             }
         }
 
+        /* não é mais necessário
         public IActionResult PainelGerente()
         {
             ViewBag.Nome = _loginColaborador.GetColaborador().Nome;
@@ -61,7 +62,7 @@ namespace ProjetoNilson4.Areas.Colaborador.Controllers
             ViewBag.Tipo = _loginColaborador.GetColaborador().Tipo;
             ViewBag.Email = _loginColaborador.GetColaborador().Email;
             return View();
-        }
+        }*/
 
         [ColaboradorAutorizacao]
         public IActionResult Painel()

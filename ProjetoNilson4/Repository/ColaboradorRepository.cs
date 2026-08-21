@@ -131,7 +131,6 @@ namespace ProjetoNilson4.Repository
             }
         }
        
-        // TERMINAR DEPOIS
         public List<Colaborador> ObterColaboradorPorEmail(string email)
         {
 			List<Colaborador> colabList = new List<Colaborador>();
@@ -158,7 +157,7 @@ namespace ProjetoNilson4.Repository
 							Telefone = Convert.ToString(dr["Telefone"]),
 							Email = Convert.ToString(dr["Email"]),
 							Senha = Convert.ToString(dr["Senha"]),
-							Tipo = Convert.ToString(dr["Tipo"])
+                            Tipo = Convert.ToString(dr["Tipo"]),
 						}
 						);
 				}

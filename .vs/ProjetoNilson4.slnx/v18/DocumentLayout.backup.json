@@ -3,40 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\3mtec\\Documents\\ProjetoLogin\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{04DC0D58-899F-C9E4-54B5-6C8CC0285105}|ProjetoNilson4\\ProjetoNilson4.csproj|c:\\users\\3mtec\\documents\\projetologin\\projetonilson4\\repository\\colaboradorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04DC0D58-899F-C9E4-54B5-6C8CC0285105}|ProjetoNilson4\\ProjetoNilson4.csproj|solutionrelative:projetonilson4\\repository\\colaboradorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{04DC0D58-899F-C9E4-54B5-6C8CC0285105}|ProjetoNilson4\\ProjetoNilson4.csproj|c:\\users\\3mtec\\documents\\projetologin\\projetonilson4\\libraries\\filtro\\validatehttprefererattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04DC0D58-899F-C9E4-54B5-6C8CC0285105}|ProjetoNilson4\\ProjetoNilson4.csproj|solutionrelative:projetonilson4\\libraries\\filtro\\validatehttprefererattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04DC0D58-899F-C9E4-54B5-6C8CC0285105}|ProjetoNilson4\\ProjetoNilson4.csproj|c:\\users\\3mtec\\documents\\projetologin\\projetonilson4\\wwwroot\\css\\site.css||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{04DC0D58-899F-C9E4-54B5-6C8CC0285105}|ProjetoNilson4\\ProjetoNilson4.csproj|solutionrelative:projetonilson4\\wwwroot\\css\\site.css||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04DC0D58-899F-C9E4-54B5-6C8CC0285105}|ProjetoNilson4\\ProjetoNilson4.csproj|c:\\users\\3mtec\\documents\\projetologin\\projetonilson4\\views\\shared\\_layout.cshtml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{04DC0D58-899F-C9E4-54B5-6C8CC0285105}|ProjetoNilson4\\ProjetoNilson4.csproj|solutionrelative:projetonilson4\\views\\shared\\_layout.cshtml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{04DC0D58-899F-C9E4-54B5-6C8CC0285105}|ProjetoNilson4\\ProjetoNilson4.csproj|c:\\users\\3mtec\\documents\\projetologin\\projetonilson4\\repository\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{04DC0D58-899F-C9E4-54B5-6C8CC0285105}|ProjetoNilson4\\ProjetoNilson4.csproj|solutionrelative:projetonilson4\\repository\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04DC0D58-899F-C9E4-54B5-6C8CC0285105}|ProjetoNilson4\\ProjetoNilson4.csproj|c:\\users\\3mtec\\documents\\projetologin\\projetonilson4\\libraries\\filtro\\colaboradorautorizacaoattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04DC0D58-899F-C9E4-54B5-6C8CC0285105}|ProjetoNilson4\\ProjetoNilson4.csproj|solutionrelative:projetonilson4\\libraries\\filtro\\colaboradorautorizacaoattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{04DC0D58-899F-C9E4-54B5-6C8CC0285105}|ProjetoNilson4\\ProjetoNilson4.csproj|c:\\users\\3mtec\\documents\\projetologin\\projetonilson4\\views\\home\\index.cshtml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{04DC0D58-899F-C9E4-54B5-6C8CC0285105}|ProjetoNilson4\\ProjetoNilson4.csproj|solutionrelative:projetonilson4\\views\\home\\index.cshtml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04DC0D58-899F-C9E4-54B5-6C8CC0285105}|ProjetoNilson4\\ProjetoNilson4.csproj|c:\\users\\3mtec\\documents\\projetologin\\projetonilson4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04DC0D58-899F-C9E4-54B5-6C8CC0285105}|ProjetoNilson4\\ProjetoNilson4.csproj|solutionrelative:projetonilson4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{04DC0D58-899F-C9E4-54B5-6C8CC0285105}|ProjetoNilson4\\ProjetoNilson4.csproj|c:\\users\\3mtec\\documents\\projetologin\\projetonilson4\\areas\\colaborador\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{04DC0D58-899F-C9E4-54B5-6C8CC0285105}|ProjetoNilson4\\ProjetoNilson4.csproj|solutionrelative:projetonilson4\\areas\\colaborador\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04DC0D58-899F-C9E4-54B5-6C8CC0285105}|ProjetoNilson4\\ProjetoNilson4.csproj|c:\\users\\3mtec\\documents\\projetologin\\projetonilson4\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04DC0D58-899F-C9E4-54B5-6C8CC0285105}|ProjetoNilson4\\ProjetoNilson4.csproj|solutionrelative:projetonilson4\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{04DC0D58-899F-C9E4-54B5-6C8CC0285105}|ProjetoNilson4\\ProjetoNilson4.csproj|c:\\users\\3mtec\\documents\\projetologin\\projetonilson4\\libraries\\middleware\\validateantiforgerytokenmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04DC0D58-899F-C9E4-54B5-6C8CC0285105}|ProjetoNilson4\\ProjetoNilson4.csproj|solutionrelative:projetonilson4\\libraries\\middleware\\validateantiforgerytokenmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04DC0D58-899F-C9E4-54B5-6C8CC0285105}|ProjetoNilson4\\ProjetoNilson4.csproj|c:\\users\\3mtec\\documents\\projetologin\\projetonilson4\\areas\\colaborador\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{04DC0D58-899F-C9E4-54B5-6C8CC0285105}|ProjetoNilson4\\ProjetoNilson4.csproj|solutionrelative:projetonilson4\\areas\\colaborador\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04DC0D58-899F-C9E4-54B5-6C8CC0285105}|ProjetoNilson4\\ProjetoNilson4.csproj|c:\\users\\3mtec\\documents\\projetologin\\projetonilson4\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{04DC0D58-899F-C9E4-54B5-6C8CC0285105}|ProjetoNilson4\\ProjetoNilson4.csproj|solutionrelative:projetonilson4\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04DC0D58-899F-C9E4-54B5-6C8CC0285105}|ProjetoNilson4\\ProjetoNilson4.csproj|c:\\users\\3mtec\\documents\\projetologin\\projetonilson4\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{04DC0D58-899F-C9E4-54B5-6C8CC0285105}|ProjetoNilson4\\ProjetoNilson4.csproj|solutionrelative:projetonilson4\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04DC0D58-899F-C9E4-54B5-6C8CC0285105}|ProjetoNilson4\\ProjetoNilson4.csproj|c:\\users\\3mtec\\documents\\projetologin\\projetonilson4\\libraries\\filtro\\clienteautorizacaoattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04DC0D58-899F-C9E4-54B5-6C8CC0285105}|ProjetoNilson4\\ProjetoNilson4.csproj|solutionrelative:projetonilson4\\libraries\\filtro\\clienteautorizacaoattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{04DC0D58-899F-C9E4-54B5-6C8CC0285105}|ProjetoNilson4\\ProjetoNilson4.csproj|c:\\users\\3mtec\\documents\\projetologin\\projetonilson4\\repository\\colaboradorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04DC0D58-899F-C9E4-54B5-6C8CC0285105}|ProjetoNilson4\\ProjetoNilson4.csproj|solutionrelative:projetonilson4\\repository\\colaboradorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,43 +46,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\3mtec\\Documents\\ProjetoLogin\\ProjetoNilson4\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "ProjetoNilson4\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\3mtec\\Documents\\ProjetoLogin\\ProjetoNilson4\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "ProjetoNilson4\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-14T10:47:21.509Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\3mtec\\Documents\\ProjetoLogin\\ProjetoNilson4\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "ProjetoNilson4\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\3mtec\\Documents\\ProjetoLogin\\ProjetoNilson4\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "ProjetoNilson4\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-05-20T14:36:19.665Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "ColaboradorRepository.cs",
               "DocumentMoniker": "C:\\Users\\3mtec\\Documents\\ProjetoLogin\\ProjetoNilson4\\Repository\\ColaboradorRepository.cs",
               "RelativeDocumentMoniker": "ProjetoNilson4\\Repository\\ColaboradorRepository.cs",
               "ToolTip": "C:\\Users\\3mtec\\Documents\\ProjetoLogin\\ProjetoNilson4\\Repository\\ColaboradorRepository.cs",
               "RelativeToolTip": "ProjetoNilson4\\Repository\\ColaboradorRepository.cs",
-              "ViewState": "AgIAAIIAAAAAAAAAAAAqwKQAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAqwJ8AAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-14T11:29:47.44Z",
               "IsPinned": true,
@@ -90,77 +64,110 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ClienteRepository.cs",
               "DocumentMoniker": "C:\\Users\\3mtec\\Documents\\ProjetoLogin\\ProjetoNilson4\\Repository\\ClienteRepository.cs",
               "RelativeDocumentMoniker": "ProjetoNilson4\\Repository\\ClienteRepository.cs",
               "ToolTip": "C:\\Users\\3mtec\\Documents\\ProjetoLogin\\ProjetoNilson4\\Repository\\ClienteRepository.cs",
               "RelativeToolTip": "ProjetoNilson4\\Repository\\ClienteRepository.cs",
-              "ViewState": "AgIAAGwAAAAAAAAAAAAiwJ8AAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJ8AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-14T11:37:03.876Z",
-              "IsPinned": true,
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\3mtec\\Documents\\ProjetoLogin\\ProjetoNilson4\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ProjetoNilson4\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\3mtec\\Documents\\ProjetoLogin\\ProjetoNilson4\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ProjetoNilson4\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-21T11:18:08.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\3mtec\\Documents\\ProjetoLogin\\ProjetoNilson4\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "ProjetoNilson4\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\3mtec\\Documents\\ProjetoLogin\\ProjetoNilson4\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "ProjetoNilson4\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-08-21T11:18:03.603Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\3mtec\\Documents\\ProjetoLogin\\ProjetoNilson4\\Areas\\Colaborador\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "ProjetoNilson4\\Areas\\Colaborador\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\3mtec\\Documents\\ProjetoLogin\\ProjetoNilson4\\Areas\\Colaborador\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "ProjetoNilson4\\Areas\\Colaborador\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAQwCgAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-14T11:27:05.612Z"
+              "DocumentIndex": 0,
+              "Title": "ValidateHttpRefererAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\3mtec\\Documents\\ProjetoLogin\\ProjetoNilson4\\Libraries\\Filtro\\ValidateHttpRefererAttribute.cs",
+              "RelativeDocumentMoniker": "ProjetoNilson4\\Libraries\\Filtro\\ValidateHttpRefererAttribute.cs",
+              "ToolTip": "C:\\Users\\3mtec\\Documents\\ProjetoLogin\\ProjetoNilson4\\Libraries\\Filtro\\ValidateHttpRefererAttribute.cs",
+              "RelativeToolTip": "ProjetoNilson4\\Libraries\\Filtro\\ValidateHttpRefererAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-21T11:05:47.891Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\3mtec\\Documents\\ProjetoLogin\\ProjetoNilson4\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProjetoNilson4\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\3mtec\\Documents\\ProjetoLogin\\ProjetoNilson4\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ProjetoNilson4\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-21T11:02:16.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\3mtec\\Documents\\ProjetoLogin\\ProjetoNilson4\\Areas\\Colaborador\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "ProjetoNilson4\\Areas\\Colaborador\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\3mtec\\Documents\\ProjetoLogin\\ProjetoNilson4\\Areas\\Colaborador\\Controllers\\HomeController.cs",
               "RelativeToolTip": "ProjetoNilson4\\Areas\\Colaborador\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAAwAgAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowCAAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-14T11:19:43.983Z"
+              "WhenOpened": "2026-08-21T10:52:18.555Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\3mtec\\Documents\\ProjetoLogin\\ProjetoNilson4\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "ProjetoNilson4\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\3mtec\\Documents\\ProjetoLogin\\ProjetoNilson4\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "ProjetoNilson4\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAA2wEwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\3mtec\\Documents\\ProjetoLogin\\ProjetoNilson4\\Program.cs",
+              "RelativeDocumentMoniker": "ProjetoNilson4\\Program.cs",
+              "ToolTip": "C:\\Users\\3mtec\\Documents\\ProjetoLogin\\ProjetoNilson4\\Program.cs",
+              "RelativeToolTip": "ProjetoNilson4\\Program.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAawDIAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-14T11:18:05.054Z"
+              "WhenOpened": "2026-08-21T10:48:40.323Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ColaboradorAutorizacaoAttribute.cs",
-              "DocumentMoniker": "C:\\Users\\3mtec\\Documents\\ProjetoLogin\\ProjetoNilson4\\Libraries\\Filtro\\ColaboradorAutorizacaoAttribute.cs",
-              "RelativeDocumentMoniker": "ProjetoNilson4\\Libraries\\Filtro\\ColaboradorAutorizacaoAttribute.cs",
-              "ToolTip": "C:\\Users\\3mtec\\Documents\\ProjetoLogin\\ProjetoNilson4\\Libraries\\Filtro\\ColaboradorAutorizacaoAttribute.cs",
-              "RelativeToolTip": "ProjetoNilson4\\Libraries\\Filtro\\ColaboradorAutorizacaoAttribute.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAA4AAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "ValidateAntiForgeryTokenMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\3mtec\\Documents\\ProjetoLogin\\ProjetoNilson4\\Libraries\\Middleware\\ValidateAntiForgeryTokenMiddleware.cs",
+              "RelativeDocumentMoniker": "ProjetoNilson4\\Libraries\\Middleware\\ValidateAntiForgeryTokenMiddleware.cs",
+              "ToolTip": "C:\\Users\\3mtec\\Documents\\ProjetoLogin\\ProjetoNilson4\\Libraries\\Middleware\\ValidateAntiForgeryTokenMiddleware.cs",
+              "RelativeToolTip": "ProjetoNilson4\\Libraries\\Middleware\\ValidateAntiForgeryTokenMiddleware.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwAgAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-14T10:57:57.588Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ClienteAutorizacaoAttribute.cs",
-              "DocumentMoniker": "C:\\Users\\3mtec\\Documents\\ProjetoLogin\\ProjetoNilson4\\Libraries\\Filtro\\ClienteAutorizacaoAttribute.cs",
-              "RelativeDocumentMoniker": "ProjetoNilson4\\Libraries\\Filtro\\ClienteAutorizacaoAttribute.cs",
-              "ToolTip": "C:\\Users\\3mtec\\Documents\\ProjetoLogin\\ProjetoNilson4\\Libraries\\Filtro\\ClienteAutorizacaoAttribute.cs",
-              "RelativeToolTip": "ProjetoNilson4\\Libraries\\Filtro\\ClienteAutorizacaoAttribute.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-14T10:34:23.311Z"
+              "WhenOpened": "2026-08-21T10:39:23.873Z"
             }
           ]
         }
