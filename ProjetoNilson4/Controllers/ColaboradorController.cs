@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MySqlX.XDevAPI;
 using ProjetoNilson4.Models;
+using ProjetoNilson4.Models.Constant;
 using ProjetoNilson4.Repository;
 using ProjetoNilson4.Repository.Contract;
 
@@ -25,7 +26,11 @@ namespace ProjetoNilson4.Controllers
         {
             if (ModelState.IsValid)
             {
+                colaborador.Tipo = ColaboradorTipoConstant.Comum;
                 _colaboradorRepository.Cadastrar(colaborador);
+
+                TempData["MSG_S"] = "Registro salvo com sucesso!!!";
+
                 return RedirectToAction("LoginColaborador", "Home");
             }
             else

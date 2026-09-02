@@ -31,18 +31,27 @@ namespace ProjetoNilson4.Areas.Colaborador.Controllers
         }
 
         [HttpPost]
-        public IActionResult Login([FromForm] Models.Colaborador colaborador)
+        public IActionResult LoginColaborador([FromForm] Models.Colaborador colaborador)
         {
             Models.Colaborador colaboradorDB = _colaboradorRepository.Login(colaborador.Email, colaborador.Senha);
 
-            if(colaboradorDB.Email != null && colaboradorDB.Senha != null)
+
+            if (colaboradorDB.Email != null && colaboradorDB.Senha != null && colaboradorDB.Tipo != ColaboradorTipoConstant.Comum)
             {
                 _loginColaborador.Login(colaboradorDB);
+
                 return new RedirectResult(Url.Action(nameof(Painel)));
+            }
+            if (colaboradorDB.Email != null && colaboradorDB.Senha != null && colaboradorDB.Tipo != ColaboradorTipoConstant.Gerente)
+            {
+                _loginColaborador.Login(colaboradorDB);
+
+                return new RedirectResult(Url.Action(nameof(Painel)));
+
             }
             else
             {
-                ViewData["MSG_E"] = "Usuário não encontrado, verifique o email e senha digitados!!";
+                ViewData["MSG_E"] = "Usuário não encontrado, verifique o e-mail e senha digitado!";
                 return View();
             }
         }

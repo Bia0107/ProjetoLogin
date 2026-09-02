@@ -31,9 +31,29 @@ body {
   text-align: start;
 }
 
-.navbar{
-    background-color: black;
+.navbar {
+    background-color: #E0FFFF;
 }
 
+.navbar .logo{
+    width: 60px;
+    height: 60px;
+}
 
+.navbar-nav .nav-link {
+    color: #00BFFF;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: #E0FFFF;
+}
+
+.footer .container {
+    color: #00BFFF;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+}
 

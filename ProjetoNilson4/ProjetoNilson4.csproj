@@ -23,6 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="wwwroot\css\img\" />
     <Folder Include="wwwroot\resources\lib\" />
   </ItemGroup>
 

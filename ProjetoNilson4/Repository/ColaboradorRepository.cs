@@ -45,7 +45,7 @@ namespace ProjetoNilson4.Repository
 
         public void Cadastrar(Colaborador colaborador)
         {
-            string Tipo = ColaboradorTipoConstant.Comum;
+           string Tipo = ColaboradorTipoConstant.Comum;
 
            using(var conexao = new MySqlConnection(_conexaoMySQL))
             {

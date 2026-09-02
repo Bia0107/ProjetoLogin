@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using ProjetoNilson4.Models;
+using ProjetoNilson4.Models.Constant;
 using ProjetoNilson4.Repository.Contract;
 
 namespace ProjetoNilson4.Areas.Colaborador.Controllers
@@ -16,6 +18,21 @@ namespace ProjetoNilson4.Areas.Colaborador.Controllers
         public IActionResult Index()
         {
             return View(_clienteRepository.ObterTodosClientes());
+        }
+
+        [HttpGet]
+        public IActionResult Cadastrar()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Cadastrar(Cliente cliente)
+        {
+            cliente.Situacao = SituacaoConstant.Ativo;
+
+            _clienteRepository.Cadastrar(cliente);
+            return RedirectToAction(nameof(Index));
         }
     }
 }
