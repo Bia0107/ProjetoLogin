@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "lmjQ1yug/T8=",
+  "dgSpecHash": "KoTPPg7HVE4=",
   "success": true,
   "projectFilePath": "C:\\Users\\3mtec\\Documents\\ProjetoLogin\\ProjetoNilson4\\ProjetoNilson4.csproj",
   "expectedPackageFiles": [
@@ -93,15 +93,15 @@
     "C:\\Users\\3mtec\\.nuget\\packages\\mono.texttemplating\\3.0.0\\mono.texttemplating.3.0.0.nupkg.sha512",
     "C:\\Users\\3mtec\\.nuget\\packages\\mysql.data\\26.7.0\\mysql.data.26.7.0.nupkg.sha512",
     "C:\\Users\\3mtec\\.nuget\\packages\\newtonsoft.json\\13.0.4\\newtonsoft.json.13.0.4.nupkg.sha512",
-    "C:\\Users\\3mtec\\.nuget\\packages\\nuget.common\\6.12.1\\nuget.common.6.12.1.nupkg.sha512",
-    "C:\\Users\\3mtec\\.nuget\\packages\\nuget.configuration\\6.12.1\\nuget.configuration.6.12.1.nupkg.sha512",
+    "C:\\Users\\3mtec\\.nuget\\packages\\nuget.common\\7.9.0\\nuget.common.7.9.0.nupkg.sha512",
+    "C:\\Users\\3mtec\\.nuget\\packages\\nuget.configuration\\7.9.0\\nuget.configuration.7.9.0.nupkg.sha512",
     "C:\\Users\\3mtec\\.nuget\\packages\\nuget.dependencyresolver.core\\6.12.1\\nuget.dependencyresolver.core.6.12.1.nupkg.sha512",
-    "C:\\Users\\3mtec\\.nuget\\packages\\nuget.frameworks\\6.12.1\\nuget.frameworks.6.12.1.nupkg.sha512",
+    "C:\\Users\\3mtec\\.nuget\\packages\\nuget.frameworks\\7.9.0\\nuget.frameworks.7.9.0.nupkg.sha512",
     "C:\\Users\\3mtec\\.nuget\\packages\\nuget.librarymodel\\6.12.1\\nuget.librarymodel.6.12.1.nupkg.sha512",
-    "C:\\Users\\3mtec\\.nuget\\packages\\nuget.packaging\\6.12.1\\nuget.packaging.6.12.1.nupkg.sha512",
+    "C:\\Users\\3mtec\\.nuget\\packages\\nuget.packaging\\7.9.0\\nuget.packaging.7.9.0.nupkg.sha512",
     "C:\\Users\\3mtec\\.nuget\\packages\\nuget.projectmodel\\6.12.1\\nuget.projectmodel.6.12.1.nupkg.sha512",
-    "C:\\Users\\3mtec\\.nuget\\packages\\nuget.protocol\\6.12.1\\nuget.protocol.6.12.1.nupkg.sha512",
-    "C:\\Users\\3mtec\\.nuget\\packages\\nuget.versioning\\6.12.1\\nuget.versioning.6.12.1.nupkg.sha512",
+    "C:\\Users\\3mtec\\.nuget\\packages\\nuget.protocol\\7.9.0\\nuget.protocol.7.9.0.nupkg.sha512",
+    "C:\\Users\\3mtec\\.nuget\\packages\\nuget.versioning\\7.9.0\\nuget.versioning.7.9.0.nupkg.sha512",
     "C:\\Users\\3mtec\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512",
     "C:\\Users\\3mtec\\.nuget\\packages\\system.composition\\9.0.0\\system.composition.9.0.0.nupkg.sha512",
     "C:\\Users\\3mtec\\.nuget\\packages\\system.composition.attributedmodel\\9.0.0\\system.composition.attributedmodel.9.0.0.nupkg.sha512",
@@ -112,7 +112,7 @@
     "C:\\Users\\3mtec\\.nuget\\packages\\system.configuration.configurationmanager\\10.0.8\\system.configuration.configurationmanager.10.0.8.nupkg.sha512",
     "C:\\Users\\3mtec\\.nuget\\packages\\system.data.datasetextensions\\4.5.0\\system.data.datasetextensions.4.5.0.nupkg.sha512",
     "C:\\Users\\3mtec\\.nuget\\packages\\system.reflection.metadataloadcontext\\8.0.0\\system.reflection.metadataloadcontext.8.0.0.nupkg.sha512",
-    "C:\\Users\\3mtec\\.nuget\\packages\\system.security.cryptography.pkcs\\6.0.4\\system.security.cryptography.pkcs.6.0.4.nupkg.sha512",
+    "C:\\Users\\3mtec\\.nuget\\packages\\system.security.cryptography.pkcs\\8.0.1\\system.security.cryptography.pkcs.8.0.1.nupkg.sha512",
     "C:\\Users\\3mtec\\.nuget\\packages\\system.security.cryptography.protecteddata\\10.0.8\\system.security.cryptography.protecteddata.10.0.8.nupkg.sha512",
     "C:\\Users\\3mtec\\.nuget\\packages\\system.security.permissions\\10.0.8\\system.security.permissions.10.0.8.nupkg.sha512",
     "C:\\Users\\3mtec\\.nuget\\packages\\system.windows.extensions\\10.0.8\\system.windows.extensions.10.0.8.nupkg.sha512",
@@ -120,30 +120,5 @@
     "C:\\Users\\3mtec\\.nuget\\packages\\x.pagedlist.mvc.core\\10.5.9\\x.pagedlist.mvc.core.10.5.9.nupkg.sha512",
     "C:\\Users\\3mtec\\.nuget\\packages\\zstdsharp.port\\0.8.8\\zstdsharp.port.0.8.8.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1901",
-      "level": "Warning",
-      "message": "O pacote 'NuGet.Packaging' 6.12.1 tem uma baixa vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-g4vj-cjjj-v7hg",
-      "projectPath": "C:\\Users\\3mtec\\Documents\\ProjetoLogin\\ProjetoNilson4\\ProjetoNilson4.csproj",
-      "warningLevel": 1,
-      "filePath": "C:\\Users\\3mtec\\Documents\\ProjetoLogin\\ProjetoNilson4\\ProjetoNilson4.csproj",
-      "libraryId": "NuGet.Packaging",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    },
-    {
-      "code": "NU1901",
-      "level": "Warning",
-      "message": "O pacote 'NuGet.Protocol' 6.12.1 tem uma baixa vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-g4vj-cjjj-v7hg",
-      "projectPath": "C:\\Users\\3mtec\\Documents\\ProjetoLogin\\ProjetoNilson4\\ProjetoNilson4.csproj",
-      "warningLevel": 1,
-      "filePath": "C:\\Users\\3mtec\\Documents\\ProjetoLogin\\ProjetoNilson4\\ProjetoNilson4.csproj",
-      "libraryId": "NuGet.Protocol",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    }
-  ]
+  "logs": []
 }

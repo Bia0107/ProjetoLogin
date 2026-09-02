@@ -1,4 +1,3 @@
-wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
@@ -535,6 +534,7 @@ wwwroot\resources\lib\jquery3.3.1\jquery-3.3.1.min.js
 wwwroot\resources\lib\mask\jquery.mask.min.js
 wwwroot\resources\lib\pagedlist\PagedList.css
 wwwroot\resources\lib\popper1.14.6\popper.min.js
+wwwroot\css\site.css
 C:\Users\3mtec\Documents\ProjetoLogin\ProjetoNilson4\wwwroot\favicon.ico
 C:\Users\3mtec\Documents\ProjetoLogin\ProjetoNilson4\wwwroot\js\site.js
 C:\Users\3mtec\Documents\ProjetoLogin\ProjetoNilson4\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css

@@ -1,0 +1,69 @@
+@model IEnumerable<ProjetoNilson4.Models.Cliente>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p class="btn btn-outline-primary" role="button">
+    <a asp-action="Cadastrar">
+        <span class="fas fa-user-plus" title="Cadastro" aria-hidden="true"></span>
+        <span>Cadastrar</span>
+    </a>
+</p>
+
+<div class="table-bordered">
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">
+                    @Html.DisplayNameFor(model => model.Nome)
+                </th>
+                <th scope="col">
+                    @Html.DisplayNameFor(model => model.Nascimento)
+                </th>
+                <th scope="col">
+                    @Html.DisplayNameFor(model => model.Sexo)
+                </th>
+                <th scope="col">
+                    @Html.DisplayNameFor(model => model.CPF)
+                </th>
+                <th scope="col">
+                    @Html.DisplayNameFor(model => model.Telefone)
+                </th>
+                <th scope="col">
+                    @Html.DisplayNameFor(model => model.Email)
+                </th>
+                <th scope="col">
+                    @Html.DisplayNameFor(model => model.Senha)
+                </th>
+                <th scope="col">
+                    @Html.DisplayNameFor(model => model.ConfirmacaoSenha)
+                </th>
+                <th scope="col">
+                    @Html.DisplayNameFor(model => model.Situacao)
+                </th>
+                <th scope="col">Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (Cliente cliente in Model)
+            {
+                <tr>
+                    <th scope="row">@cliente.Id</th>
+                    <td>@cliente.Nome</td>
+                    <td>@cliente.CPF</td>
+                    <td>@cliente.Telefone</td>
+                    <td>@cliente.Email</td>
+                    <td>@cliente.Senha</td>
+
+                    <td>
+                        <a asp-action="GerarSenha" asp-route-id="@cliente.Id" class="bnt bnt-secondary">Atualizar</a>
+                        <a asp-action="Excluir" asp-route-id="@cliente.Id" class="bnt bnt-danger">Desativar</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

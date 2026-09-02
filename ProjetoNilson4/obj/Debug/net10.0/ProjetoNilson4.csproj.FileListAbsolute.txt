@@ -2469,4 +2469,4 @@ C:\Users\3mtec\Documents\ProjetoLogin\ProjetoNilson4\obj\Debug\net10.0\ProjetoNi
 C:\Users\3mtec\Documents\ProjetoLogin\ProjetoNilson4\obj\Debug\net10.0\ProjetoNilson4.genruntimeconfig.cache
 C:\Users\3mtec\Documents\ProjetoLogin\ProjetoNilson4\obj\Debug\net10.0\ref\ProjetoNilson4.dll
 C:\Users\3mtec\Documents\ProjetoLogin\ProjetoNilson4\bin\Debug\net10.0\runtimes\win\lib\net10.0\System.Windows.Extensions.dll
-C:\Users\3mtec\Documents\ProjetoLogin\ProjetoNilson4\obj\Debug\net10.0\compressed\x0q1mjsat5-{0}-7vt7smn31v-7vt7smn31v.gz
+C:\Users\3mtec\Documents\ProjetoLogin\ProjetoNilson4\obj\Debug\net10.0\compressed\x0q1mjsat5-{0}-2lve4q9jw8-2lve4q9jw8.gz

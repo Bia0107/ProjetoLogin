@@ -71,7 +71,7 @@
             },
             "NuGet.Protocol": {
               "target": "Package",
-              "version": "[6.12.1, )"
+              "version": "[7.9.0, )"
             },
             "X.PagedList.Mvc.Core": {
               "target": "Package",

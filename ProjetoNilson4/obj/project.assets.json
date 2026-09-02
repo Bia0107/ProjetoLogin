@@ -1711,35 +1711,35 @@
           }
         }
       },
-      "NuGet.Common/6.12.1": {
+      "NuGet.Common/7.9.0": {
         "type": "package",
         "dependencies": {
-          "NuGet.Frameworks": "6.12.1"
+          "NuGet.Frameworks": "7.9.0"
         },
         "compile": {
-          "lib/netstandard2.0/NuGet.Common.dll": {
+          "lib/net8.0/NuGet.Common.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/NuGet.Common.dll": {
+          "lib/net8.0/NuGet.Common.dll": {
             "related": ".xml"
           }
         }
       },
-      "NuGet.Configuration/6.12.1": {
+      "NuGet.Configuration/7.9.0": {
         "type": "package",
         "dependencies": {
-          "NuGet.Common": "6.12.1",
-          "System.Security.Cryptography.ProtectedData": "4.4.0"
+          "NuGet.Common": "7.9.0",
+          "System.Security.Cryptography.ProtectedData": "8.0.0"
         },
         "compile": {
-          "lib/netstandard2.0/NuGet.Configuration.dll": {
+          "lib/net8.0/NuGet.Configuration.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/NuGet.Configuration.dll": {
+          "lib/net8.0/NuGet.Configuration.dll": {
             "related": ".xml"
           }
         }
@@ -1762,15 +1762,15 @@
           }
         }
       },
-      "NuGet.Frameworks/6.12.1": {
+      "NuGet.Frameworks/7.9.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/NuGet.Frameworks.dll": {
+          "lib/net8.0/NuGet.Frameworks.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/NuGet.Frameworks.dll": {
+          "lib/net8.0/NuGet.Frameworks.dll": {
             "related": ".xml"
           }
         }
@@ -1792,21 +1792,21 @@
           }
         }
       },
-      "NuGet.Packaging/6.12.1": {
+      "NuGet.Packaging/7.9.0": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "13.0.3",
-          "NuGet.Configuration": "6.12.1",
-          "NuGet.Versioning": "6.12.1",
-          "System.Security.Cryptography.Pkcs": "6.0.4"
+          "NuGet.Configuration": "7.9.0",
+          "NuGet.Versioning": "7.9.0",
+          "System.Security.Cryptography.Pkcs": "8.0.1"
         },
         "compile": {
-          "lib/net5.0/NuGet.Packaging.dll": {
+          "lib/net8.0/NuGet.Packaging.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net5.0/NuGet.Packaging.dll": {
+          "lib/net8.0/NuGet.Packaging.dll": {
             "related": ".xml"
           }
         }
@@ -1827,31 +1827,31 @@
           }
         }
       },
-      "NuGet.Protocol/6.12.1": {
+      "NuGet.Protocol/7.9.0": {
         "type": "package",
         "dependencies": {
-          "NuGet.Packaging": "6.12.1"
+          "NuGet.Packaging": "7.9.0"
         },
         "compile": {
-          "lib/net5.0/NuGet.Protocol.dll": {
+          "lib/net8.0/NuGet.Protocol.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net5.0/NuGet.Protocol.dll": {
+          "lib/net8.0/NuGet.Protocol.dll": {
             "related": ".xml"
           }
         }
       },
-      "NuGet.Versioning/6.12.1": {
+      "NuGet.Versioning/7.9.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/NuGet.Versioning.dll": {
+          "lib/net8.0/NuGet.Versioning.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/NuGet.Versioning.dll": {
+          "lib/net8.0/NuGet.Versioning.dll": {
             "related": ".xml"
           }
         }
@@ -2026,23 +2026,23 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "System.Security.Cryptography.Pkcs/6.0.4": {
+      "System.Security.Cryptography.Pkcs/8.0.1": {
         "type": "package",
         "compile": {
-          "lib/net6.0/System.Security.Cryptography.Pkcs.dll": {
+          "lib/net8.0/System.Security.Cryptography.Pkcs.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/System.Security.Cryptography.Pkcs.dll": {
+          "lib/net8.0/System.Security.Cryptography.Pkcs.dll": {
             "related": ".xml"
           }
         },
         "build": {
-          "buildTransitive/netcoreapp3.1/_._": {}
+          "buildTransitive/net6.0/_._": {}
         },
         "runtimeTargets": {
-          "runtimes/win/lib/net6.0/System.Security.Cryptography.Pkcs.dll": {
+          "runtimes/win/lib/net8.0/System.Security.Cryptography.Pkcs.dll": {
             "assetType": "runtime",
             "rid": "win"
           }
@@ -5087,10 +5087,10 @@
         "packageIcon.png"
       ]
     },
-    "NuGet.Common/6.12.1": {
-      "sha512": "nk8nTdhQl4x2VaAQUvefI7DDYAuBDlE+OZZRffm50Qx5dUAEq8wkc5JIqrN2lTEohObHPI/SXyG2UFdMQkrdyg==",
+    "NuGet.Common/7.9.0": {
+      "sha512": "OWFEzHpwvgzSaHYmWzfbyTm6oBOy/BFSFEDk73zM9jiJaxdopYZ/DrqIQogaM3F+ZGTppBJffmzu5adetEI/YA==",
       "type": "package",
-      "path": "nuget.common/6.12.1",
+      "path": "nuget.common/7.9.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5098,16 +5098,16 @@
         "icon.png",
         "lib/net472/NuGet.Common.dll",
         "lib/net472/NuGet.Common.xml",
-        "lib/netstandard2.0/NuGet.Common.dll",
-        "lib/netstandard2.0/NuGet.Common.xml",
-        "nuget.common.6.12.1.nupkg.sha512",
+        "lib/net8.0/NuGet.Common.dll",
+        "lib/net8.0/NuGet.Common.xml",
+        "nuget.common.7.9.0.nupkg.sha512",
         "nuget.common.nuspec"
       ]
     },
-    "NuGet.Configuration/6.12.1": {
-      "sha512": "IRwlY1379ZgJ0oEJvjD+lDuOhJ5S1fsU5n/bEC5/i0+N9bo2WIMDAdaQ/qIdyK/gMJ/YWS+++GSX6rN7luqEvg==",
+    "NuGet.Configuration/7.9.0": {
+      "sha512": "oY9XZp+TWjOmiGmU4R4JWBRY3F4TAVo7tqPr/z7MOsFcEpdYHMryjNSscoLBxUTR3WmFmYgO0Gvu4eRbz6pzOg==",
       "type": "package",
-      "path": "nuget.configuration/6.12.1",
+      "path": "nuget.configuration/7.9.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5115,9 +5115,9 @@
         "icon.png",
         "lib/net472/NuGet.Configuration.dll",
         "lib/net472/NuGet.Configuration.xml",
-        "lib/netstandard2.0/NuGet.Configuration.dll",
-        "lib/netstandard2.0/NuGet.Configuration.xml",
-        "nuget.configuration.6.12.1.nupkg.sha512",
+        "lib/net8.0/NuGet.Configuration.dll",
+        "lib/net8.0/NuGet.Configuration.xml",
+        "nuget.configuration.7.9.0.nupkg.sha512",
         "nuget.configuration.nuspec"
       ]
     },
@@ -5140,10 +5140,10 @@
         "nuget.dependencyresolver.core.nuspec"
       ]
     },
-    "NuGet.Frameworks/6.12.1": {
-      "sha512": "kPaRD5RJC0ByUg+yGX6bDz5XHMI7OYmQwP8kbtef+vZ+csj/VDb5Bwas4ChxwhoAbI8lEvwP5/3aViQPpgNBow==",
+    "NuGet.Frameworks/7.9.0": {
+      "sha512": "w2adPmgUafmW9ON1MzDjuHmViN0vtiPV48Dz3OE6px8BiGSqrnWHOjwFEPOEPAZx20J1c7bxp90Hxo9l4xGWtw==",
       "type": "package",
-      "path": "nuget.frameworks/6.12.1",
+      "path": "nuget.frameworks/7.9.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5151,9 +5151,9 @@
         "icon.png",
         "lib/net472/NuGet.Frameworks.dll",
         "lib/net472/NuGet.Frameworks.xml",
-        "lib/netstandard2.0/NuGet.Frameworks.dll",
-        "lib/netstandard2.0/NuGet.Frameworks.xml",
-        "nuget.frameworks.6.12.1.nupkg.sha512",
+        "lib/net8.0/NuGet.Frameworks.dll",
+        "lib/net8.0/NuGet.Frameworks.xml",
+        "nuget.frameworks.7.9.0.nupkg.sha512",
         "nuget.frameworks.nuspec"
       ]
     },
@@ -5174,10 +5174,10 @@
         "nuget.librarymodel.nuspec"
       ]
     },
-    "NuGet.Packaging/6.12.1": {
-      "sha512": "6s5NO3VNX6fIx6GwuWZtIsal9W1xkelYd3Vg2KUAg1zGqnKC3wB5IZlombvVGVGcwyl/A+iDvpUwSvgeDoB3wA==",
+    "NuGet.Packaging/7.9.0": {
+      "sha512": "Q2jxuud5kJLV0rUzsC02iC5ts8QsQu9UVyMvF8lULY3TwHL/W/PrnQ9bQFvMR7jJkzF1uilRPI1o+7VOtc2XMg==",
       "type": "package",
-      "path": "nuget.packaging/6.12.1",
+      "path": "nuget.packaging/7.9.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5185,11 +5185,9 @@
         "icon.png",
         "lib/net472/NuGet.Packaging.dll",
         "lib/net472/NuGet.Packaging.xml",
-        "lib/net5.0/NuGet.Packaging.dll",
-        "lib/net5.0/NuGet.Packaging.xml",
-        "lib/netstandard2.0/NuGet.Packaging.dll",
-        "lib/netstandard2.0/NuGet.Packaging.xml",
-        "nuget.packaging.6.12.1.nupkg.sha512",
+        "lib/net8.0/NuGet.Packaging.dll",
+        "lib/net8.0/NuGet.Packaging.xml",
+        "nuget.packaging.7.9.0.nupkg.sha512",
         "nuget.packaging.nuspec"
       ]
     },
@@ -5212,10 +5210,10 @@
         "nuget.projectmodel.nuspec"
       ]
     },
-    "NuGet.Protocol/6.12.1": {
-      "sha512": "VBN7OtG/Y9Rnj1WT3G8X88ZHu5Pq+yzca5Z6OI/FWXcENVAQkUl0ml6Cv8ghOqYyiuvnObGDV9oWLD/bIuVtDw==",
+    "NuGet.Protocol/7.9.0": {
+      "sha512": "Ts0qPUGJYfFHhlNSSWWrkaSG6++WqS6ry32WmQA7eNdzTc9SumyhDflITcusBYkT6pEQD5BI1UEByakciV3s0A==",
       "type": "package",
-      "path": "nuget.protocol/6.12.1",
+      "path": "nuget.protocol/7.9.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5223,18 +5221,16 @@
         "icon.png",
         "lib/net472/NuGet.Protocol.dll",
         "lib/net472/NuGet.Protocol.xml",
-        "lib/net5.0/NuGet.Protocol.dll",
-        "lib/net5.0/NuGet.Protocol.xml",
-        "lib/netstandard2.0/NuGet.Protocol.dll",
-        "lib/netstandard2.0/NuGet.Protocol.xml",
-        "nuget.protocol.6.12.1.nupkg.sha512",
+        "lib/net8.0/NuGet.Protocol.dll",
+        "lib/net8.0/NuGet.Protocol.xml",
+        "nuget.protocol.7.9.0.nupkg.sha512",
         "nuget.protocol.nuspec"
       ]
     },
-    "NuGet.Versioning/6.12.1": {
-      "sha512": "fJ6rFYANDnohFsdpaY79FvrJxI6murmoOxXz6nZlf819F48+IBKMnAIg3oIBRtZq5y498ObMtKnro5IitvizUg==",
+    "NuGet.Versioning/7.9.0": {
+      "sha512": "r4sZuVpVqwSBLe4qYDrnpScqdyctlRXg0HSF5OoCGkeBc8b+o8BBYHuI/u1RoWYX78PbieijU13TBt71/Xf3lw==",
       "type": "package",
-      "path": "nuget.versioning/6.12.1",
+      "path": "nuget.versioning/7.9.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5242,9 +5238,9 @@
         "icon.png",
         "lib/net472/NuGet.Versioning.dll",
         "lib/net472/NuGet.Versioning.xml",
-        "lib/netstandard2.0/NuGet.Versioning.dll",
-        "lib/netstandard2.0/NuGet.Versioning.xml",
-        "nuget.versioning.6.12.1.nupkg.sha512",
+        "lib/net8.0/NuGet.Versioning.dll",
+        "lib/net8.0/NuGet.Versioning.xml",
+        "nuget.versioning.7.9.0.nupkg.sha512",
         "nuget.versioning.nuspec"
       ]
     },
@@ -5512,39 +5508,39 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Security.Cryptography.Pkcs/6.0.4": {
-      "sha512": "LGbXi1oUJ9QgCNGXRO9ndzBL/GZgANcsURpMhNR8uO+rca47SZmciS3RSQUvlQRwK3QHZSHNOXzoMUASKA+Anw==",
+    "System.Security.Cryptography.Pkcs/8.0.1": {
+      "sha512": "CoCRHFym33aUSf/NtWSVSZa99dkd0Hm7OCZUxORBjRB16LNhIEOf8THPqzIYlvKM0nNDAPTRBa1FxEECrgaxxA==",
       "type": "package",
-      "path": "system.security.cryptography.pkcs/6.0.4",
+      "path": "system.security.cryptography.pkcs/8.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Security.Cryptography.Pkcs.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
         "buildTransitive/netcoreapp2.0/System.Security.Cryptography.Pkcs.targets",
-        "buildTransitive/netcoreapp3.1/_._",
-        "lib/net461/System.Security.Cryptography.Pkcs.dll",
-        "lib/net461/System.Security.Cryptography.Pkcs.xml",
+        "lib/net462/System.Security.Cryptography.Pkcs.dll",
+        "lib/net462/System.Security.Cryptography.Pkcs.xml",
         "lib/net6.0/System.Security.Cryptography.Pkcs.dll",
         "lib/net6.0/System.Security.Cryptography.Pkcs.xml",
-        "lib/netcoreapp3.1/System.Security.Cryptography.Pkcs.dll",
-        "lib/netcoreapp3.1/System.Security.Cryptography.Pkcs.xml",
+        "lib/net7.0/System.Security.Cryptography.Pkcs.dll",
+        "lib/net7.0/System.Security.Cryptography.Pkcs.xml",
+        "lib/net8.0/System.Security.Cryptography.Pkcs.dll",
+        "lib/net8.0/System.Security.Cryptography.Pkcs.xml",
         "lib/netstandard2.0/System.Security.Cryptography.Pkcs.dll",
         "lib/netstandard2.0/System.Security.Cryptography.Pkcs.xml",
         "lib/netstandard2.1/System.Security.Cryptography.Pkcs.dll",
         "lib/netstandard2.1/System.Security.Cryptography.Pkcs.xml",
-        "runtimes/win/lib/net461/System.Security.Cryptography.Pkcs.dll",
-        "runtimes/win/lib/net461/System.Security.Cryptography.Pkcs.xml",
         "runtimes/win/lib/net6.0/System.Security.Cryptography.Pkcs.dll",
         "runtimes/win/lib/net6.0/System.Security.Cryptography.Pkcs.xml",
-        "runtimes/win/lib/netcoreapp3.1/System.Security.Cryptography.Pkcs.dll",
-        "runtimes/win/lib/netcoreapp3.1/System.Security.Cryptography.Pkcs.xml",
-        "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.Pkcs.dll",
-        "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.Pkcs.xml",
-        "runtimes/win/lib/netstandard2.1/System.Security.Cryptography.Pkcs.dll",
-        "runtimes/win/lib/netstandard2.1/System.Security.Cryptography.Pkcs.xml",
-        "system.security.cryptography.pkcs.6.0.4.nupkg.sha512",
+        "runtimes/win/lib/net7.0/System.Security.Cryptography.Pkcs.dll",
+        "runtimes/win/lib/net7.0/System.Security.Cryptography.Pkcs.xml",
+        "runtimes/win/lib/net8.0/System.Security.Cryptography.Pkcs.dll",
+        "runtimes/win/lib/net8.0/System.Security.Cryptography.Pkcs.xml",
+        "system.security.cryptography.pkcs.8.0.1.nupkg.sha512",
         "system.security.cryptography.pkcs.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -5699,7 +5695,7 @@
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 10.0.2",
       "MySql.Data >= 26.7.0",
       "Newtonsoft.Json >= 13.0.4",
-      "NuGet.Protocol >= 6.12.1",
+      "NuGet.Protocol >= 7.9.0",
       "X.PagedList.Mvc.Core >= 10.5.9"
     ]
   },
@@ -5774,7 +5770,7 @@
           },
           "NuGet.Protocol": {
             "target": "Package",
-            "version": "[6.12.1, )"
+            "version": "[7.9.0, )"
           },
           "X.PagedList.Mvc.Core": {
             "target": "Package",
@@ -6217,27 +6213,5 @@
         }
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1901",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "O pacote 'NuGet.Packaging' 6.12.1 tem uma baixa vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-g4vj-cjjj-v7hg",
-      "libraryId": "NuGet.Packaging",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    },
-    {
-      "code": "NU1901",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "O pacote 'NuGet.Protocol' 6.12.1 tem uma baixa vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-g4vj-cjjj-v7hg",
-      "libraryId": "NuGet.Protocol",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    }
-  ]
+  }
 }

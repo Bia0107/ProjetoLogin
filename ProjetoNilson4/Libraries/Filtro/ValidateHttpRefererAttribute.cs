@@ -20,9 +20,10 @@ namespace ProjetoNilson4.Libraries.Filtro
                 string hostReferer = uri.Host;
                 string hostsServidor = context.HttpContext.Request.Host.Host;
 
-                if(hostReferer != hostsServidor)
+                if (hostReferer != hostsServidor)
                 {
                     context.Result = new ContentResult() { Content = "Acessso Negado!!" };
+                }
             }
         }
 
